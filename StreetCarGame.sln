@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4d70beb2-2ec8-33b8-87cf-6ab9259dc254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enviro3.Runtime", "Enviro3.Runtime.csproj", "{0006a356-2577-8d73-8742-53ecdaf9ec4b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccaSoftware.Altos.Editor", "OccaSoftware.Altos.Editor.csproj", "{788d8eca-0691-0369-a346-76f603ab639d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccaSoftware.Altos.Demo", "OccaSoftware.Altos.Demo.csproj", "{a665a9be-a053-5c15-d8e3-4296fd3cb091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enviro3.Editor", "Enviro3.Editor.csproj", "{11695f15-67b1-a2c0-69a3-8b4d98b07bbd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccaSoftware.Altos.Runtime", "OccaSoftware.Altos.Runtime.csproj", "{a7ecddf4-7b2f-fac7-2b20-d3bd8a713819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{f43864c4-d9b7-2e73-e9d4-b4fcf55818b6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4d70beb2-2ec8-33b8-87cf-6ab9259dc254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4d70beb2-2ec8-33b8-87cf-6ab9259dc254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0006a356-2577-8d73-8742-53ecdaf9ec4b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0006a356-2577-8d73-8742-53ecdaf9ec4b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788d8eca-0691-0369-a346-76f603ab639d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788d8eca-0691-0369-a346-76f603ab639d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a665a9be-a053-5c15-d8e3-4296fd3cb091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a665a9be-a053-5c15-d8e3-4296fd3cb091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11695f15-67b1-a2c0-69a3-8b4d98b07bbd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11695f15-67b1-a2c0-69a3-8b4d98b07bbd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a7ecddf4-7b2f-fac7-2b20-d3bd8a713819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a7ecddf4-7b2f-fac7-2b20-d3bd8a713819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f43864c4-d9b7-2e73-e9d4-b4fcf55818b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f43864c4-d9b7-2e73-e9d4-b4fcf55818b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
