@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: df_g_body_CarPaint
+  m_Shader: {fileID: 4800000, guid: eb34cfb6ebd630142b72a09cad9da548, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _CUSTOMREFLECTIONNORMAL_ON
+  - _ENABLECARDOTSNORMAL_ON
+  - _ENABLECARDOTS_ON
+  - _ENABLECARPAINT_ON
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: e79937a84ded329438853fb03e8f0fa3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dots:
+        m_Texture: {fileID: 2800000, guid: affa6993e537e934fb42e157fe56183d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DotsNormal:
+        m_Texture: {fileID: 2800000, guid: 14c616b577455744e81d81f678a565f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flakes:
+        m_Texture: {fileID: 2800000, guid: 5485b175a56156d4b80850090d76f33e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c286dc1dedce2b949bc4bc2fe88c5b67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matallic:
+        m_Texture: {fileID: 2800000, guid: a14cbfa96a3010d44a3ed4426b1d44ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: 650946c816e7f8c46af90cf417aa451c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 9e462af727c81de4489394497982ccf5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Reflect:
+        m_Texture: {fileID: 2800000, guid: 93f2837ea6de01f408c8294f86a209ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
+        m_Texture: {fileID: 2800000, guid: e402819fd7321b248ac73c9fd7ce4cc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 6f27c24d71306ff4bad31137c034efcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionProbe1reflectionHDRcar2:
+        m_Texture: {fileID: 8900000, guid: 46d3d6338a7425847abbde28a5d06a50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionProbereflectionHDRCar:
+        m_Texture: {fileID: 8900000, guid: 46d3d6338a7425847abbde28a5d06a50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 9e53cae521b4e624693d668c32151d85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CustomReflectionNormal: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DotsNormallPower: 0.532
+    - _DstBlend: 0
+    - _EnableCarDots: 1
+    - _EnableCarDotsNormal: 1
+    - _EnableCarPaint: 1
+    - _FlakesPower: 0.04
+    - _FlakesTile: 18
+    - _FlakesTile_U: 32
+    - _FlakesTile_V: 64
+    - _FlipFresnel: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _MetallicPower: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectDistortion: 0.0258
+    - _RoughnessFromAlpha: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Tiling: 51
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 0.740566, b: 0.740566, a: 1}
+    - _Color_A: {r: 0.21589087, g: 0.20554467, b: 0.2924528, a: 0}
+    - _Color_B: {r: 0.1981132, g: 0.11868102, b: 0.12983723, a: 0}
+    - _CubemapTint: {r: 0.33535066, g: 0.40440693, b: 0.4528302, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelRefSettings: {r: 0, g: 1, b: 3.19, a: 0}
+    - _FresnelSettings: {r: 0, g: 1, b: 5, a: 0}
+    - _Fresnel_A: {r: 1.81, g: 0.8, b: 0.5, a: 1}
+    - _Fresnel_B: {r: 1.05, g: 0.58, b: 2.38, a: 6.74}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Tint: {r: 0.198113, g: 0.198113, b: 0.198113, a: 0}
+    - _Vector0: {r: 2.57, g: 2.03, b: 2.07, a: 2.44}
+  m_BuildTextureStacks: []

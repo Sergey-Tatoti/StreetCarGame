@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: eb34cfb6ebd630142b72a09cad9da548
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ReflectionProbe1reflectionHDRcar2: {fileID: 8900000, guid: 46d3d6338a7425847abbde28a5d06a50,
+      type: 3}
+  - _Roughness: {fileID: 2800000, guid: 9e53cae521b4e624693d668c32151d85, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
