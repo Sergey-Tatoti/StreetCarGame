@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4d70beb2-2ec8-33b8-87cf-6ab9259dc254}</ProjectGuid>
+    <ProjectGuid>{0c7ca100-6a89-75c5-2a12-73c200d1a14b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -42,9 +42,10 @@
   <ItemGroup>
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Scripts\FreeRoamCamera.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Drowing\DrowingDetails.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Upgrade\UpgradePanel.cs" />
      <Compile Include="Assets\Scripts\Paths\PathType.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\Drow\ButtonBuyDrow.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\DataSave\SavePlayer\SavePlayer.cs" />
      <Compile Include="Assets\Scripts\Street And Concert\PeopleController.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Joint.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_MobileButtons.cs" />
@@ -52,26 +53,26 @@
      <Compile Include="Assets\Scenes\CountrySide\ButtonRestart.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Exhaust.cs" />
      <Compile Include="Assets\Scripts\Street And Concert\StandingPeopleConcert.cs" />
-     <Compile Include="Assets\Scripts\Garage\Car\CarPriceUpgrade.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\GlitchVolume.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\Player.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Scripts\RuntimeEdit.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_SceneManager.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CharacterController.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\ShopMenu.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_PoliceSiren.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CrashShredder.cs" />
-     <Compile Include="Assets\Sky\Enviro 3 - Sky and Weather\Scripts\ThirdPartySupport\Mirror\EnviroMirrorServer.cs" />
+     <Compile Include="Assets\Scripts\Garage\Camera\CameraGarage.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\ImageEffects.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_FuelStation.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CameraCarSelection.cs" />
      <Compile Include="Assets\Scenes\CountrySide\TempPlayer.cs" />
      <Compile Include="Assets\Scripts\People\BcycleGyroController.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CrashHammer.cs" />
-     <Compile Include="Assets\Scripts\Garage\Car\CarPlayer.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\Drow\DrowValue.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Tuning\TuningMenu.cs" />
      <Compile Include="Assets\Scripts\Car\CarMove.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Camera.cs" />
-     <Compile Include="Assets\Sky\Enviro 3 - Sky and Weather\Sample\Scripts\EventTest.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tunings\Skid.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tunings\Hood.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\DataSave\SaveCar\SaveTuning.cs" />
      <Compile Include="Assets\Scripts\People\Passersby.cs" />
      <Compile Include="Assets\Scripts\Traffic Light\SemaphorePeople.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_SetLayer.cs" />
@@ -80,15 +81,20 @@
      <Compile Include="Assets\Another\PRO Car Paint Shader\Scripts\Buttons.cs" />
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
      <Compile Include="Assets\Scripts\Car\AddTrailer.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Tuning\SwitcherTunings.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_AIBrakeZonesContainer.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Data\PlayerData.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Light.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Settings.cs" />
      <Compile Include="Assets\Scripts\Street And Concert\ShfuffleExtension.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Drowing\SliderColor.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Singleton.cs" />
      <Compile Include="Assets\Scripts\Street And Concert\CommonUtils.cs" />
      <Compile Include="Assets\Scripts\Traffic Light\TLGraphicsControl.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CheckUp.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Telemetry.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Upgrade\MaxCharacteristicCars.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\DataSave\SaveCar\Save.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_GroundMaterials.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_TrailerAttachPoint.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\SketchVolume.cs" />
@@ -98,37 +104,38 @@
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\VolumeBase.cs" />
      <Compile Include="Assets\Scripts\Paths\MovePath.cs" />
      <Compile Include="Assets\Scripts\Car\EasySuspension.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Upgrade\CarPriceUpgrade.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tunings\TuningDetails.cs" />
      <Compile Include="Assets\Scripts\Traffic Light\SemaphoreSimulator.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\DepthOfField.cs" />
      <Compile Include="Assets\Scripts\Paths\CarWalkPath.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\Drow\DrowMenu.cs" />
      <Compile Include="Assets\Scripts\Paths\SpawnPoint.cs" />
-     <Compile Include="Assets\Scripts\Garage\Car\Player.cs" />
+     <Compile Include="Assets\Scripts\Garage\Camera\CameraMoving.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_InfoLabel.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_LevelLoader.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\SwitcherCar.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Upgrade\ButtonBuyUpgrade.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Drowing\DrowPanel.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tuning.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_PlayerPrefsX.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\Drow\SliderColor.cs" />
      <Compile Include="Assets\Scripts\Camera\CamMouseOrbit.cs" />
      <Compile Include="Assets\Scripts\Player\MoneyModifier.cs" />
      <Compile Include="Assets\Scripts\Paths\PeopleWalkPath.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Main\ShopMenu.cs" />
      <Compile Include="Assets\Scripts\Garage\PlayMenu.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_APIExample.cs" />
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\Drow\DrowCar.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CustomizerExample.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Scripts\lerpDOF.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Core.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_LOD.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Spawner.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Data\SaveManager.cs" />
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_WheelCollider.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CinematicCamera.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Upgrade\UpgradeValueAndPrice.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CrashPress.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Main\ButtonBuyCar.cs" />
-     <Compile Include="Assets\Scripts\Garage\Car\CarCharacteristic.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_AIBrakeZone.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerTouchTracker.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Damage.cs" />
@@ -138,11 +145,15 @@
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Installation.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_UIJoystick.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_DashboardObjects.cs" />
-     <Compile Include="Assets\Scripts\Garage\Car\CarCountUpgrades.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\DataSave\SaveCar\SaveUpgrade.cs" />
      <Compile Include="Assets\Scripts\Paths\BcycleGyroPath.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_FixedCamera.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Drowing\CarDrowingDetails.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\MonochromeVolume.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_FOVForCinematicCamera.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Upgrade\CarCountUpgrades.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Data\CarData.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Main\SwitcherCar.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Teleporter.cs" />
      <Compile Include="Assets\Scripts\People\UnitBase.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\EdgeGlowVolume.cs" />
@@ -164,18 +175,21 @@
      <Compile Include="Assets\Another\PRO Car Paint Shader\Scripts\AutoDOF.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_UIDashboardButton.cs" />
      <Compile Include="Assets\Scripts\Another Script\RotateGameObject.cs" />
-     <Compile Include="Assets\Scripts\Garage\Car\MaxCharacteristicCars.cs" />
      <Compile Include="Assets\Scripts\Another Script\Lights.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CarControllerV3.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_AIO.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_InputManager.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\DataSave\SaveCar\SaveColor.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\CarPlayer.cs" />
      <Compile Include="Assets\Another\AkilliMum\Samples\SRP\PostProcessing\Scripts\SimpleRotaterPP.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_GetBounds.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Mirror.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_DashboardInputs.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_TruckTrailer.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\SimplePostProcess.cs" />
-     <Compile Include="Assets\Sky\Enviro 3 - Sky and Weather\Scripts\ThirdPartySupport\Mirror\EnviroMirrorPlayer.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Drowing\DrowingCarCorps.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Upgrade\CarCharacteristic.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Data\CarDatas.cs" />
      <Compile Include="Assets\Scripts\Car\CarWheels.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\SwitcherMenu.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Waypoint.cs" />
@@ -185,13 +199,15 @@
      <Compile Include="Assets\Scripts\Player\RCC\RCC_DemoVehicles.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\ImageEffectBase.cs" />
      <Compile Include="Assets\Scripts\Another Script\CarWheelsRotation.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Drowing\DrowMenu.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Drowing\DrowingWheel.cs" />
      <Compile Include="Assets\Scripts\Car\ReasonsStoppingCars.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\CartoonVolume.cs" />
      <Compile Include="Assets\Scripts\Traffic Light\LightManager.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_MobileUIDrag.cs" />
      <Compile Include="Assets\Scripts\Street And Concert\StandingPeopleStreet.cs" />
-     <Compile Include="Assets\Scripts\Camera\CamGarage.cs" />
+     <Compile Include="Assets\Scripts\Garage\Camera\CameraTouchTracker.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_SkidmarksManager.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Useless.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\ChromaticVolume.cs" />
@@ -200,6 +216,8 @@
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Scripts\MyCamera.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\TiltShift.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tunings\FBump.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tunings\Spoiler.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\Quads.cs" />
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\Joystick.cs" />
@@ -207,19 +225,21 @@
      <Compile Include="Assets\Scripts\Car\CarControl.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\PostEffectsHelper.cs" />
      <Compile Include="Assets\Another\UTS_PRO\ReplaceMe!\CarController.cs" />
-     <Compile Include="Assets\Sky\Enviro 3 - Sky and Weather\Sample\Scripts\UISample.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\CarTuning.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\SimpleEdgeVolume.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Main\ProtectPanel.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMakingMoney.cs" />
      <Compile Include="Assets\Scripts\Car\CarAIController.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Drowing\DrowingSaloon.cs" />
      <Compile Include="Assets\Standart Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_HoodCamera.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Emission.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_Version.cs" />
      <Compile Include="Assets\Scripts\Player\RewardMessage.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\Antialiasing\Antialiasing.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Player\DataSave\SaveCar\SaveCar.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Data\Encryptor.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_ChangableWheels.cs" />
-     <Compile Include="Assets\Sky\Enviro 3 - Sky and Weather\Scripts\ThirdPartySupport\Microsplat\EnviroMicrosplatIntegration.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_AICarController.cs" />
      <Compile Include="Assets\Scripts\Paths\WalkPath.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\DrunkVolume.cs" />
@@ -228,53 +248,36 @@
      <Compile Include="Assets\Scripts\Car\ParentOfTrailer.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_RepairStation.cs" />
      <Compile Include="Assets\Scripts\Camera\RotatePlayer.cs" />
-     <Compile Include="Assets\Scripts\Garage\Menu\Drow\DrowPanel.cs" />
+     <Compile Include="Assets\Scripts\Garage\Car\Tuning\Tunings\RBump.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_SuspensionArm.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Main\MoneyPanel.cs" />
-     <Compile Include="Assets\Sky\Enviro 3 - Sky and Weather\Scripts\ThirdPartySupport\WAPI\EnviroWorldAPI.cs" />
      <Compile Include="Assets\Scripts\Player\RCC\RCC_CarSelectionExample.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\VCRVolume.cs" />
      <Compile Include="Assets\Another\AkilliMum\SRP\PostProcessing\Scripts\FastBlurVolume.cs" />
      <Compile Include="Assets\Scripts\Garage\Menu\Upgrade\UpgradeMenu.cs" />
+     <Compile Include="Assets\Scripts\Garage\Menu\Tuning\MenuDetails.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\PostEffectsBase.cs" />
      <Compile Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\DepthOfFieldDeprecated.cs" />
      <None Include="Assets\Another\RealisticCarControllerV3\Addon Packages\For ProFlares\Readme!.txt" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\Drunk.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\Sky\allsky_readme.txt" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\ReflectionProbe\EnviroReflectionProbe.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\version.txt" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Sample\Shader\EnviroTransparentSurface.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\Antialiasing\Shaders\DLAA.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Fog\EnviroVolumetrics.shader" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\VCR.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsDepth.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsReprojectHDRP.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\Antialiasing\Shaders\FXAAPreset3.shader" />
      <None Include="Assets\Another\URP PostProcessing Profiles\ForAmbient Occlusion\Readme.txt" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\SkyIncludeHLSL.hlsl" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\Shaders\Clouds\Shadows\ScreenShadows.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Blit\EnviroBlitTroughHDRP.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsReproject.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroWeatherMapCS.compute" />
      <None Include="Assets\Another\URP PostProcessing Profiles\ReadmeFIRST!.txt" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroWeatherMap.shader" />
      <None Include="Assets\Standart Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\Antialiasing\Shaders\SSAA.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Shaders\Pro Car Paint Transparent Shader - Lite.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <None Include="Assets\Sky\Skybox\SkyboxGuidelines.txt" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Sky\EnviroSkybox.shader" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\FastBlur.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\Shaders\Skybox\BackgroundShader.shader" />
      <None Include="Assets\Another\UTS_PRO\Readme!.txt" />
      <None Include="Assets\Another\PRO Car Paint Shader\Shaders\Pro Car Paint Matcap.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Particles\EnviroLightning.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Fog\EnviroHeightFogHDRP.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Fog\EnviroBilateralBlur.shader" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\Glitch.shader" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\Monochrome.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -285,41 +288,28 @@
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\Shaders\Clouds\Shadows\IntegrateCloudShadows.shader" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\EdgeGlow.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\ShaderLibrary\GetCameraMotionVectors.hlsl" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\ParticlesInclude.cginc" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsDepthHDRP.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsBlendHDRP.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Sky\EnviroSkyboxHDRP.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\Bokeh34.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\Shaders\Skybox\StarShader.shader" />
      <None Include="Assets\Another\AkilliMum\READ_ME.txt" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\VolumetricCloudsInclude.cginc" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Fog\EnviroVolumetricsURP.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Another\Luke Peek\Extensions\Particle Scaler Utility\README.txt" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\Another\RealisticCarControllerV3\LICENSE - Read Me!.txt" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\SkyInclude.cginc" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\DepthOfField34.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\ReflectionProbe\EnviroCubemapBlur.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\DepthOfFieldDX11.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\Sketch.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Particles\EnviroWeatherParticles.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\SeparableBlur.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Blit\EnviroBlitThroughURP.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\ShaderLibrary\Utils.hlsl" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroApplyShadows.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Shaders\Pro Car Paint Shader - Lite.shader" />
      <None Include="Assets\Scripts\Player\RCC\RCC_Skidmarks.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\FogInclude.cginc" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Another\PRO Car Paint Shader\Shaders\Pro Car Paint Shader.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\NoiseInclude.cginc" />
      <None Include="Assets\Another\AkilliMum\SRP\PostProcessing\Shaders\Resources\Chromatic.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\Shaders\Skybox\SkyObjectShader.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\SeparableWeightedBlurDof34.shader" />
@@ -327,8 +317,6 @@
      <None Include="Assets\Materials\Garage\df_g_shaders\DF_G_CarPaint.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\DepthOfFieldScatter.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Includes\FogIncludeHLSL.hlsl" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroApplyShadowsHDRP.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\Antialiasing\Shaders\FXAA2.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\ShaderLibrary\TextureUtils.hlsl" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\ShaderLibrary\Math.hlsl" />
@@ -343,12 +331,9 @@
      <None Include="Assets\Another\PRO Car Paint Shader\Shaders\Pro Car Paint Transparent Shader.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Another\OccaSoftware\Altos\AssetResources\Shaders\Skybox\AtmosphereShader.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Fog\EnviroHeightFog.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\Antialiasing\Shaders\FXAAPreset2.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsRaymarch.shader" />
      <None Include="Assets\Another\PRO Car Paint Shader\Effects\DepthOfField\Shaders\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\Standart Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\Sky\Enviro 3 - Sky and Weather\Resources\Shader\Clouds\EnviroVolumetricCloudsBlend.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -590,10 +575,10 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -977,164 +962,156 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>C:\Users\pro10\Desktop\UnityGame\RideCar\StreetCarGame\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>C:\Users\pro10\Desktop\UnityGame\Streeeeeeet\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="OccaSoftware.Altos.Editor.csproj">
-      <Project>{788d8eca-0691-0369-a346-76f603ab639d}</Project>
+      <Project>{8d22be31-3435-33b2-fdee-2af12b36a736}</Project>
       <Name>OccaSoftware.Altos.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Enviro3.Editor.csproj">
-      <Project>{11695f15-67b1-a2c0-69a3-8b4d98b07bbd}</Project>
-      <Name>Enviro3.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="OccaSoftware.Altos.Runtime.csproj">
-      <Project>{a7ecddf4-7b2f-fac7-2b20-d3bd8a713819}</Project>
+      <Project>{1d0807c1-04fe-4614-cb4d-632d24ee8687}</Project>
       <Name>OccaSoftware.Altos.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="OccaSoftware.Altos.Demo.csproj">
-      <Project>{a665a9be-a053-5c15-d8e3-4296fd3cb091}</Project>
+      <Project>{d4b2fee6-b4d3-4840-1bc5-3670bfdfdcf8}</Project>
       <Name>OccaSoftware.Altos.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="Enviro3.Runtime.csproj">
-      <Project>{0006a356-2577-8d73-8742-53ecdaf9ec4b}</Project>
-      <Name>Enviro3.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

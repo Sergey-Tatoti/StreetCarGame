@@ -9,13 +9,13 @@ public class UpgradeValueAndPrice : MonoBehaviour
     private const string BrakeTorque = "BrakeTorque";
     private const string HighSpeedSteer = "HighSpeedSteer";
 
+    private CarCountUpgrades _carCountUprages;
+    private CarPriceUpgrade _carPriceUpgrade;
+    private int _currentPrice = 0;
     private int _currentUpgradeSpeed;
     private int _currentUpgradeDownForce;
     private int _currentUpgradeBrakeTorque;
     private int _currentUpgradeHighSpeedSteer;
-    private int _currentPrice = 0;
-    private CarCountUpgrades _carCountUprages;
-    private CarPriceUpgrade _carPriceUpgrade;
 
     public int CurrentPrice => _currentPrice;
 
@@ -28,7 +28,7 @@ public class UpgradeValueAndPrice : MonoBehaviour
     public void ChangeUpgrade(CarPlayer car)
     {
         _currentPrice = 0;
-        
+
         car.ChangeCurrentCountUpgrade(_currentUpgradeSpeed, _currentUpgradeDownForce, _currentUpgradeBrakeTorque, _currentUpgradeHighSpeedSteer);
     }
 
@@ -47,11 +47,11 @@ public class UpgradeValueAndPrice : MonoBehaviour
         if (characteristic == Speed)
             _currentUpgradeSpeed = currentUpdate;
         else if (characteristic == DownForce)
-            _currentUpgradeSpeed = currentUpdate;
+            _currentUpgradeDownForce = currentUpdate;
         else if (characteristic == BrakeTorque)
-            _currentUpgradeSpeed = currentUpdate;
+            _currentUpgradeBrakeTorque = currentUpdate;
         else if (characteristic == HighSpeedSteer)
-            _currentUpgradeSpeed = currentUpdate;
+            _currentUpgradeHighSpeedSteer = currentUpdate;
     }
 
     public void ChangedPrice(string characteristic, int index, int direction)

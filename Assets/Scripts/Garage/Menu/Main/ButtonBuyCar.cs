@@ -25,6 +25,11 @@ public class ButtonBuyCar : MonoBehaviour
         _button.onClick.RemoveListener(() => ClicledButton?.Invoke()); ;
     }
 
+    private void Awake()
+    {
+        ChangeVisibility(false);
+    }
+
     public void ChangeTextPrice(bool isBuyed, int price = 0)
     {
         if (isBuyed == true)

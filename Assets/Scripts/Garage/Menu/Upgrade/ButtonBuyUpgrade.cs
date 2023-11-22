@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class ButtonBuyUpgrade : MonoBehaviour
 {
+    private const string Valuta = "$";
+
     [SerializeField] private Button _buttonPrice;
     [SerializeField] private TMP_Text _textPrice;
 
@@ -36,7 +38,7 @@ public class ButtonBuyUpgrade : MonoBehaviour
         if (price == 0)
             _buttonPrice.gameObject.SetActive(false);
             
-        _textPrice.text = price.ToString();
+        _textPrice.text = price.ToString() + Valuta;
     }
 
     public void ChangeVisibility(bool isShow)

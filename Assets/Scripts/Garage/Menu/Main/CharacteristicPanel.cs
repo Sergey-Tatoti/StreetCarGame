@@ -5,13 +5,27 @@ using UnityEngine.UI;
 
 public class CharacteristicPanel : MonoBehaviour
 {
+    [SerializeField] private ShopMenu _shopMenu;
+    [SerializeField] private UpgradeMenu _updrageMenu;
+    [SerializeField] private MaxCharacteristicCars _maxCharacteristicCars;
     [SerializeField] private Slider _slidersSpeed;
     [SerializeField] private Slider _sliderDownForce;
     [SerializeField] private Slider _sliderBrakeTorque;
     [SerializeField] private Slider _sliderHighSpeedSteerAngleAtspeed;
-    [SerializeField] private MaxCharacteristicCars _maxCharacteristicCars;
 
     private CarCharacteristic _carCharacteristic;
+
+    private void OnEnable() 
+    {
+        _shopMenu.ChangedCar += ShowCharacteristic;
+        _updrageMenu.ChangedCharacteristic += ShowCharacteristic;
+    }
+
+    private void OnDisable() 
+    {
+        _shopMenu.ChangedCar -= ShowCharacteristic;
+        _updrageMenu.ChangedCharacteristic -= ShowCharacteristic;
+    }
 
     public void ShowCharacteristic(CarPlayer car)
     {

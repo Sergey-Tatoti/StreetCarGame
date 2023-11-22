@@ -33,11 +33,6 @@ public class SliderUpgrade : MonoBehaviour
     _slider.maxValue = maxUpdate;
   }
 
-  public void ResetValue(int currentUpdate)
-  {
-    _slider.value = currentUpdate;
-  }
-
   private void TryChangeValue(float value)
   {
     if (_slider.value < _currentCountUpgrade)
@@ -49,28 +44,32 @@ public class SliderUpgrade : MonoBehaviour
   private void ChangeValueDirection()
   {
     if (_temporaryCountUpgrade < _slider.value)
-      ChangeUpValue();
+      ChangeValue(false);
 
     if (_temporaryCountUpgrade > _slider.value)
-      ChangeDownValue();
+      ChangeValue(true);
+  }
+
+  private void ChangeValue(bool isDown)
+  {
+    while (_temporaryCountUpgrade != Convert.ToInt32(_slider.value))
+    {
+      if (isDown == true)
+        ChangeDownValue();
+      else
+        ChangeUpValue();
+    }
   }
 
   private void ChangeUpValue()
   {
-    while (_temporaryCountUpgrade != Convert.ToInt32(_slider.value))
-    {
-      ChangedValue?.Invoke(_direction, _temporaryCountUpgrade, _temporaryCountUpgrade + 1);
-      _temporaryCountUpgrade++;
-    }
+    ChangedValue?.Invoke(_direction, _temporaryCountUpgrade, _temporaryCountUpgrade + 1);
+    _temporaryCountUpgrade++;
   }
 
   private void ChangeDownValue()
   {
-    while (_temporaryCountUpgrade != Convert.ToInt32(_slider.value))
-    {
-      _temporaryCountUpgrade--;
-      ChangedValue?.Invoke(-_direction, _temporaryCountUpgrade, _temporaryCountUpgrade);
-    }
+    _temporaryCountUpgrade--;
+    ChangedValue?.Invoke(-_direction, _temporaryCountUpgrade, _temporaryCountUpgrade);
   }
 }
-
